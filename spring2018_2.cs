@@ -7,15 +7,14 @@ using System.Drawing.Imaging;
 
 public class  spring2018_2 {
 
-static public void Main() {
-
-}
+    static public void Main() {
+    }
 //  細線化（Hilditch）
 private void ProcHilditch()
 {
 
     //System.Drawing.Bitmap bmp = new System.Drawing.Bitmap(@"C:\test.jpg");
-    Bitmap bs = new Bitmap("test.bmp");
+    Bitmap bs = new Bitmap("bitmap.bmp");
 
   // 近傍画素へのオフセット値
   Point[] p = {new Point(0, 0),

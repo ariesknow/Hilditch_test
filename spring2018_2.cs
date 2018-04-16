@@ -1,4 +1,9 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Drawing;
+using System.Drawing.Imaging;
 
 public class  spring2018_2 {
 
@@ -8,6 +13,10 @@ static public void Main() {
 //  細線化（Hilditch）
 private void ProcHilditch()
 {
+
+    //System.Drawing.Bitmap bmp = new System.Drawing.Bitmap(@"C:\test.jpg");
+    Bitmap bs = new Bitmap("test.bmp");
+
   // 近傍画素へのオフセット値
   Point[] p = {new Point(0, 0),
                new Point(0, 1),
